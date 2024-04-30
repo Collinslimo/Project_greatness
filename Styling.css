@@ -1,4 +1,28 @@
-h1{
+.header a.h1{
     color: rgba(76, 124, 21, 0.726);
-    flex: content;
+    float: left;
+    flex: none;
+    font-size: 25px;
+    font-weight: 800;
+}
+ul{
+    list-style-type: none;
+
+}
+.header a,h1 {
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    padding: 12px;
+    text-align: left;
+    flex: none;
+}
+
+.header{
+   
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.267); 
+    padding: 20px 10px;
+    max-width: 100%;
 }
